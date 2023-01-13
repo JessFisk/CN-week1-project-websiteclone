@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css?family=Asap+Condensed:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i&display=swap');
+			
+
+          
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i&display=swap');
+
+
+body{
+    background-color:aquamarine;
+    margin: 0px;
+}
+
+#headeradvert{
+    background-color: #e6017d;
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    
+}
+
+#headeradvert a{
+    color:white;
+    font-family:"Asap Condensed";
+    text-transform:uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav{
+    background-color:#ffeb03;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 20px 65px 20px 65px; 
+}
+
+nav a{ 
+    text-decoration: none;
+    color: black;
+    font-family: "Bebas Neue",sans-serif;
+    margin: 0px 20px;
+    align-items: center;
+}
+
+#sitedirectors{
+    letter-spacing: 2px;
+    align-items: center;
+}
+
+#sitelogo{
+    width: 117px;
+}
+
+#shrinkmenus{
+    display:none;
+}
+
+#hamburgermenu{
+    display: none;
+}
+
+#topimage{
+    height: 500px;
+    background-image: url("bpbackgrounds/bigpotatobackground1.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    
+}
+
+#mainblurb{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: "Bebas Neue",sans-serif;
+    font-weight: 300;
+    font-size: 70px;
+    text-align: left; 
+    line-height: 1;
+    margin-bottom: 8px;
+    margin-left: 20px;
+}
+
+#topimage>div{
+        width:100%;
+        max-width: 1000px;
+        margin: 0% auto;
+}
+
+#blurbsubheading{
+    color:white;
+    font-family:"Asap Condensed";
+    font-weight: 400;
+    font-size: 28px;
+    margin-left: 20px;
+    
+}
+
+#match{
+    background-color: #e6017d;
+    font-family: "Bebas Neue",sans-serif;
+    text-align: center;
+    color: white;
+    border: none;
+    font-size: 28px;
+    padding: 18px;
+    width: 28.5%;
+    margin-right: 14.5px;
+    margin-left: 20px;
+    
+}
+
+#shopforgames{
+    font-family: "Bebas Neue",sans-serif;
+    background-color: #167bac;
+    text-align: center;
+    color: white;
+    border: none;
+    font-size: 28px;
+    padding: 18px;
+    width: 28.5%;
+    margin-left: 14.5px;
+}
+
+#topgames {
+    color: #1d9cd8;
+    font-size: 46px;
+    font-family: "Bebas Neue",sans-serif;
+    text-align: center;
+    
+}
+
+.gameadverts{
+    background-color: rgb(253, 253, 253);
+    font-family:"Asap Condensed";
+    height: 400px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0.25px 0.25px 20px 0.25px rgb(161, 160, 160); 
+    
+}
+.gameadverts div{
+    color: #e6017d;
+    font-weight: 700;
+    
+}
+.gameadverts img,
+.gametypereel img{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#advertlocation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#viewmore{
+    color: #1d9cd8;
+    font-size: 23px;
+    font-family: "Bebas Neue",sans-serif;
+    text-align: center;
+}
+#bluesection{
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 970px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#freshgames{
+    font-size: 26px;
+    font-family:"Asap Condensed";
+    margin-bottom: 0px;
+}
+
+#dinopotato{
+    max-width: 75px;
+}
+#freshtext{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin-top: 0px;
+
+}
+#freshgamesblurb{
+    font-size: 17px;
+    font-family:"Asap Condensed";
+}
+
+#freshbutton{
+    font-family: "Bebas Neue",sans-serif;
+    background-color: #167bac;
+    text-align: center;
+    color: white;
+    border: none;
+    font-size: 28px;
+    padding: 18px;
+    height: 70px;
+    width: 300px;
+    margin-left: 15px;    
+}
+
+#pinksection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gametypereel{
+    background-color: rgb(253, 253, 253);
+    font-family:"Asap Condensed";
+    justify-content: center;
+    padding: 5px;
+    height: 285px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 0.25px 0.25px 20px 0.25px rgb(173, 173, 173); 
+}
+#secondimage{
+    background-image: url("bpbackgrounds/bigpotatobackground2.webp");
+    background-size: 37%;
+    background-position: top;
+}
+
+#backgroundthree{
+        background-color:#def3fc;
+}
+
+#backgroundfour{
+    background-image: url("bpbackgrounds/bigpotatobackground3.webp");
+
+    background-size: 37%;
+    background-position: top;
+}
+
+#looking{
+    text-align: center;
+    font-size: 46px;
+    text-transform: uppercase;
+    color: #e6017d;
+    font-family: "Bebas Neue",sans-serif;
+    font-weight : 300;
+}
+
+.marginfix{
+    overflow: auto;
+}
+
+@media(max-width: 1200px){
+    body{
+        background-color: rgb(255, 255, 255);
+    }
+    #sitedirectors{
+        display: none;
+    }
+    #subsitedirectors{
+        display: none;
+    }
+    #shrinkmenus{
+        display:block;
+    }
+    #hamburgermenu{
+        display: block;
+    }
+    #sitelogo{
+        justify-self: center;
+    }
+    nav{    
+        padding:3px 20px;
+    }
+}
+
+@media(max-width:600px){
+    body{
+        background-color: rgb(254, 254, 254);
+    }
+    #sitedirectors{
+        display: none;
+    }
+    #subsitedirectors{
+        display: none;
+    }
+    #shrinkmenus{
+        display:block;
+    }
+    #hamburgermenu{
+        display: block;
+        }
+    #sitelogo{
+        align-items: center;
+    }
+    #match{
+        font-size: 18px;
+        padding: 10px;
+        width: 40%;
+        margin-right: 0%;
+        margin-left: 5%;
+    }
+        #shopforgames{     
+        font-size: 18px;
+        padding: 10px;
+        width: 40%;
+        margin-left: 5%;
+    }
+    #bluesection{
+        flex-direction: column;
+        width: 100%;
+        margin: 20px 0;
+    }
+    #freshtext{
+        max-width: 90%;
+        text-align: center;
+    }
+
+}
